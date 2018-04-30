@@ -40,6 +40,9 @@
   <div class="container">
     <div class="shopping-cart">
       <p class="cart-title">Items in Cart</p>
+      <script id="item-template" type="text/x-handlebars-template">
+        <div class="adding-item">{{itemName}} - {{itemPrice}}$</div>
+      </script>
       <div class="cart-list"></div>
       <p>Total: $<span class="total">0</span></p>
       <button type="button" class="btn clear-cart">Clear Cart</button>
